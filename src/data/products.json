@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S23 Ultra 5G AI Smartphone",
+        "category": "mobiles",
+        "description": "Stylish leather handbag with ample storage space.",
+        "price": 134999,
+        "oldPrice": 161999,
+        "image": "https://m.media-amazon.com/images/I/71lD7eGdW-L._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "black",
+        "rating": 4.5,
+        "author": "admin"
+    },
+    {
+        "id": 2,
+        "name": "realme Buds T110 Bluetooth Truly Wireless in Ear Earbuds",
+        "category": "headphones",
+        "description": "Elegant evening gown for special occasions.",
+        "price": 1099,
+        "oldPrice": 2999,
+        "image": "https://m.media-amazon.com/images/I/61LKTD-YnrL._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "red",
+        "rating": 4.0
+    },
+    {
+        "id": 3,
+        "name": "Portronics Adapto 66 2.4A 12w Dual USB Port 5V/2.4A Wall Charger",
+        "category": "chargers",
+        "description": "Exquisite gold necklace with intricate design.",
+        "price": 179,
+        "oldPrice": 499,
+        "image": "https://m.media-amazon.com/images/I/41UhCI6+p7L._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "gold",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "name": "HONOR Pad X8a with Free Flip-Cover 27.94cm (11 inch) Wi-Fi Tablet",
+        "category": "tablets",
+        "description": "Long-lasting matte lipstick in various shades.",
+        "price": 9999,
+        "oldPrice": 21999,
+        "image": "https://m.media-amazon.com/images/I/6104lCOYMJL._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "red",
+        "rating": 4.2
+    },
+    {
+        "id": 5,
+        "name": "Redmi Note 13 Pro+",
+        "category": "mobiles",
+        "description": "Luxurious silk scarf with vibrant colors.",
+        "price": 27999,
+        "oldPrice": 33999,
+        "image": "https://m.media-amazon.com/images/I/71C8O0yT7hL._AC_UY327_QL65_.jpg",
+        "color": "blue",
+        "rating": 3.3
+    },
+    {
+        "id": 6,
+        "name": "boAt BassHeads 225 in-Ear Super Extra Bass Wired Headphones, with Mic (Black)",
+        "category": "headphones",
+        "description": "Chic cocktail dress for parties and events.",
+        "price": 398,
+        "oldPrice": 999,
+        "image": "https://m.media-amazon.com/images/I/61iSV4o+X-L._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "black",
+        "rating": 3.4
+    },
+    {
+        "id": 7,
+        "name": "MI Xiaomi 22.5W Fast Charger with USB-C Cable",
+        "category": "chargers",
+        "description": "Sparkling diamond earrings that add elegance to any outfit.",
+        "price": 599,
+        "oldPrice": 999,
+        "image": "https://m.media-amazon.com/images/I/51X8GzoDlYL._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "silver",
+        "rating": 4.8
+    },
+    {
+        "id": 8,
+        "name": "Xiaomi Pad 6",
+        "category": "tablets",
+        "description": "High-coverage foundation for a flawless finish.",
+        "price": 23999,
+        "oldPrice": 41999,
+        "image": "https://m.media-amazon.com/images/I/61N1RFGVVCL._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "beige",
+        "rating": 4.1
+    },
+    {
+        "id": 9,
+        "name": "OnePlus 11R 5G",
+        "category": "mobiles",
+        "description": "Trendy sunglasses with UV protection.",
+        "price": 28499,
+        "oldPrice": 39399,
+        "image": "https://m.media-amazon.com/images/I/613SAOPmLeL._AC_UY327_QL65_.jpg",
+        "color": "black",
+        "rating": 4.6
+    },
+    {
+        "id": 10,
+        "name": "boAt Rockerz 450 Bluetooth On Ear Headphones",
+        "category": "headphones",
+        "description": "Comfortable maxi dress for casual outings.",
+        "price": 1399,
+        "oldPrice": 3990,
+        "image": "https://m.media-amazon.com/images/I/51FNnHjzhQL._AC_UY327_FMwebp_QL65_.jpg",
+        "color": "green",
+        "rating": 4.2
+    }
+]
