@@ -10,7 +10,7 @@ const DealsSection = () => {
             <div className='deals__content'>
                 <h5>Get Up To 20% Discount</h5>
                 <h4>Deals of This Month</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint minima amet, ea, dolorum debitis, nobis laboriosam quaerat fugit molestias totam explicabo? Nesciunt quos laboriosam libero odit a distinctio reprehenderit suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae earum voluptates modi, odit provident placeat.</p>
                 <div className='deals__countdown flex-wrap'>
                     <div className='deals__countdown__card'>
                         <h4>14</h4>

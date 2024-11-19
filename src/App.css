@@ -139,7 +139,7 @@ nav {
 }
 
 .header__container {
-    min-height: 550px;
+    min-height: 580px;
     background-color: var(--primary-color-light);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -147,8 +147,10 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     align-items: center;
+    padding: 2rem;
 }
 
+/* Adjust header__content for readability */
 .header__content {
     max-width: 600px;
     margin-left: auto;
@@ -165,11 +167,14 @@ nav {
     font-weight: 800;
     font-family: var(--header-font);
     color: var(--text-dark);
+    margin-bottom: 1rem;
 }
 
 .header__content p {
     margin-bottom: 2rem;
     color: var(--text-light);
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .header__image {
@@ -180,9 +185,61 @@ nav {
 .header__image img {
     position: absolute;
     left: 50%;
-    bottom: -5rem;
+    bottom: -2rem;
     transform: translateX(-50%);
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .header__content {
+        margin: 0 auto;
+    }
+
+    .header__content h1 {
+        font-size: 3rem;
+    }
+
+    .header__content p {
+        font-size: 1rem;
+    }
+
+    .header__image img {
+        bottom: -3rem;
+        max-width: 80%;
+    }
+    /* .deals__image img {
+        position: absolute;
+        left: 50%;
+        bottom: 1rem !important;
+        transform: translateX(-50%);
+        max-width: 500px !important;
+    } */
+}
+
+@media (max-width: 480px) {
+    .header__container {
+        padding: 1rem;
+    }
+
+    .header__content h1 {
+        font-size: 2rem;
+    }
+
+    .header__content p {
+        font-size: 0.9rem;
+    }
+
+    .header__image img {
+        bottom: -1rem;
+        max-width: 70%;
+    }
 }
 
 .categories__grid {
@@ -303,6 +360,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     align-items: center;
+    padding: 2rem;
 }
 
 .deals__image {
@@ -316,11 +374,14 @@ nav {
     bottom: -5rem;
     transform: translateX(-50%);
     max-width: 550px;
+    width: 100%; /* Ensure the image scales properly */
+    height: auto;
 }
 
 .deals__content {
     max-width: 600px;
     margin-right: auto;
+    text-align: left;
 }
 
 .deals__content h5 {
@@ -341,12 +402,16 @@ nav {
 .deals__content p {
     margin-bottom: 2rem;
     color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .deals__countdown {
     display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
     align-items: center;
     gap: 1rem;
+    justify-content: center; /* Center items on smaller screens */
 }
 
 .deals__countdown__card {
@@ -372,13 +437,75 @@ nav {
     color: var(--text-dark);
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .deals__container {
+        grid-template-columns: 1fr; /* Switch to a single-column layout */
+        text-align: center; /* Center text for smaller screens */
+        padding: 1.5rem;
+    }
+
+    .deals__content {
+        margin: 0 auto;
+    }
+
+    .deals__content h4 {
+        font-size: 1.8rem; /* Reduce font size for smaller screens */
+    }
+
+    .deals__content p {
+        font-size: 1rem; /* Adjust text size for readability */
+    }
+
+    .deals__image img {
+        bottom: -3rem; /* Adjust image positioning */
+        max-width: 80%; /* Scale image for smaller screens */
+    }
+
+    .deals__countdown__card {
+        height: 70px;
+        width: 70px; /* Reduce card size for smaller screens */
+    }
+
+    .deals__countdown__card h4 {
+        font-size: 1.2rem; /* Adjust text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .deals__content h4 {
+        font-size: 1.5rem; /* Further reduce font size */
+    }
+
+    .deals__content p {
+        font-size: 0.9rem; /* Adjust paragraph text size */
+    }
+
+    .deals__image img {
+        bottom: -2rem;
+        max-width: 70%; /* Further scale down image */
+    }
+
+    .deals__countdown__card {
+        height: 60px;
+        width: 60px; /* Further reduce card size */
+    }
+
+    .deals__countdown__card h4 {
+        font-size: 1rem;
+    }
+}
+
 .banner__container {
     max-width: var(--max-width-900);
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex; /* Use flexbox for horizontal alignment */
+    gap: 2rem; /* Add space between cards */
+    justify-content: space-between; /* Spread cards evenly */
+    align-items: center; /* Center items vertically */
+    padding: 2rem 1rem;
 }
+
 
 .banner__card {
     text-align: center;
@@ -513,10 +640,6 @@ nav {
         text-align: center;
     }
 
-    .header__image {
-        min-height: 300px;
-    }
-
     .hero__container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -540,12 +663,18 @@ nav {
     }
 
     .deals__image {
-        min-height: 300px;
+        min-height: 140px;
         grid-area: 2/1/3/2;
     }
 
     .banner__container {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid; /* Ensure grid layout */
+        grid-template-columns: 1fr; /* Single column for mobile */
+        gap: 1rem; /* Add spacing between cards */
+        text-align: center; /* Center text for better presentation */
+    }
+    .banner__card {
+        margin: 0 auto; /* Center align cards horizontally */
     }
 
     .blog__grid {
