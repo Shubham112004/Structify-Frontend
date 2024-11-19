@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </footer>
             <div className='footer__bar'>
-                Copyright 2024 MobiShop. All rights reserved.
+                Copyright 2024 Shoptix. All rights reserved. Developed by Shubham Gaikwad
             </div>
         </>
     )

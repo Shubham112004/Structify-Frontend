@@ -67,7 +67,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex items-center">
                     <Link to="/" className="text-2xl font-bold text-primary">
-                        MobiShop<span className="text-secondary">.</span>
+                        Shoptix<span className="text-secondary">.</span>
                     </Link>
                 </div>
 
