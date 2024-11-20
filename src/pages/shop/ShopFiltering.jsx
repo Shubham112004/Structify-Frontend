@@ -15,7 +15,7 @@ const ShopFiltering = ({ filters, filtersState, setFiltersState, clearFilters })
 
             {/* Filters Sidebar */}
             <div
-                className={`fixed top-0 left-0 h-full bg-white shadow-lg z-40 transform ${showFilters ? 'translate-x-0' : '-translate-x-full'
+                className={`fixed top-0 left-0 h-full bg-white z-40 transform ${showFilters ? 'translate-x-0' : '-translate-x-full'
                     } transition-transform duration-300 overflow-y-auto md:relative md:translate-x-0 md:overflow-visible md:w-1/4 lg:w-48`}
             >
                 <div className="p-4 space-y-5">
