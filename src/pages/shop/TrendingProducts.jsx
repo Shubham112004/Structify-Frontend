@@ -30,7 +30,7 @@ const TrendingProducts = () => {
             </div>
 
             {/* load more btn */}
-            <div className='product__btn'>
+            <div className='product__btn mt-4'>
                 {
                     visibleProducts < products.length && (
                         <button className='btn' onClick={loadMoreProducts}>Load More</button>
