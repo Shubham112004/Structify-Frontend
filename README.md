@@ -65,6 +65,11 @@ I designed this project to:
 - Manage Products
 ![Manage Products](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169568/git%20uploads/lxqnonm5ophvhnrqxziv.png)
 
+### 4. Shop Page
+![Shop Page](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169569/git%20uploads/lqwvpzelgco1wsswmw2n.png)
+
+### 5. Mobile View
+![Mobile View](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732170402/git%20uploads/htm6uthw8piznn7nweai.png)
 
 ## 🤝 Contributing
 
@@ -83,9 +88,3 @@ For questions, feedback, or collaboration opportunities:
 - **Email**: shubhamgaikwad2k4.com  
 - **LinkedIn**: [Profile](https://www.linkedin.com/in/shubham2k24)  
 - **Portfolio**: [shubham-gaikwad](https://shubham-gaikwad.vercel.app)
-
-### 4. Shop Page
-![Shop Page](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169569/git%20uploads/lqwvpzelgco1wsswmw2n.png)
-
-### 5. Mobile View
-![Mobile View](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732170402/git%20uploads/htm6uthw8piznn7nweai.png)
