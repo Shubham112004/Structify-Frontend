@@ -1,23 +1,40 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import bannerImg from '../../assets/header.png'
+import React from 'react';
+import Carousel from 'react-material-ui-carousel';
+import { Paper, Button } from '@mui/material';
+import b1 from '../../assets/banner1.jpg'
+import b2 from '../../assets/banner2.jpg'
+import b3 from '../../assets/banner3.jpg'
 
-const Banner = () => {
+function Banner() {
+    const items = [
+        {
+            src: b1,
+        },
+        {
+            src: b2,
+        },
+        {
+            src: b3,
+        },
+    ];
+
     return (
-        <main className='mt-16'>
-            <div className='section__container header__container'>
-                <div className='header__content z-30'>
-                    <h4 className='uppercase'>Up to 20% Discount<sup>*</sup></h4>
-                    <h1>Big Deals on Big Brands</h1>
-                    <p>Get the latest smartphones from top brands like Apple, Samsung, and OnePlus at unbeatable prices. Shop now and save big on your favorite models!</p>
-                    <button className='btn'><Link to="/shop">EXPLORE NOW!</Link></button>
-                </div>
-                <div className='header__image'>
-                    <img src={bannerImg} alt="banner img" />
-                </div>
-            </div>
-        </main>
-    )
+        <Carousel className='mt-16'>
+            {items.map((item, i) => (
+                <Item key={i} item={item} />
+            ))}
+        </Carousel>
+    );
 }
 
-export default Banner
+function Item({ item }) {
+    return (
+        <Paper style={{ textAlign: 'center', padding: '20px' }}>
+            <img src={item.src} alt={item.name} style={{ width: '100%', borderRadius: '8px' }} />
+            <h2>{item.name}</h2>
+            <p>{item.description}</p>
+        </Paper>
+    );
+}
+
+export default Banner;

@@ -22,7 +22,7 @@ const TrendingProducts = () => {
     return (
         <section className='section__container'>
             <h2 className='section__header'>Trending Products</h2>
-            <p className='section__subheader'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perferendis architecto hic nemo ipsam, maiores magnam ea iure eum.</p>
+            <p className='section__subheader'>"Stay Ahead of the Curve – Shop the Trends Everyone's Talking About!"</p>
 
             {/* products card */}
             <div className='mt-12'>

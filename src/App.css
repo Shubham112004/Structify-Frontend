@@ -23,7 +23,7 @@
 .section__container {
     max-width: var(--max-width-1400);
     margin: auto;
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .section__header {
@@ -314,7 +314,7 @@ nav {
 
 .product__grid {
     max-width: var(--max-width-900);
-    margin: 4rem auto;
+    margin: 3rem auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
@@ -527,6 +527,17 @@ nav {
 
 .banner__card p {
     color: var(--text-light);
+}
+
+.banner__card img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+@media (min-width: 768px) {
+    .banner__card img {
+        margin-left: 3rem; /* Adjust for desktop views if needed */
+    }
 }
 
 .blog__container {

@@ -5,7 +5,7 @@ const Blog = () => {
     return (
         <section className='section__container blog__container'>
             <h2 className='section__header'>Latest from Blog!</h2>
-            <p className='section__subheader'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque eaque nobis quod nisi odit! Nisi.</p>
+            <p className='section__subheader'>"Stay updated with the latest trends, tips, and insights from our blog. Explore fresh content and expert advice to help you make informed decisions!"</p>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12'>
                 {
                     blogsData.map((blog, index) => (

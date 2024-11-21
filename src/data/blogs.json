@@ -1,29 +1,29 @@
 [
     {
         "id": 1,
-        "title": "Mastering the Art of Capsule Wardrobes",
-        "subtitle": "Timeless Elegance",
-        "date": "12th August 2022",
+        "title": "Smart Home Trends 2024",
+        "subtitle": "Future of automation.",
+        "date": "12th August 2024",
         "imageUrl": "https://images.pexels.com/photos/4057657/pexels-photo-4057657.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "id": 2,
-        "title": "Unveiling the Hottest Beachwear Trends",
-        "subtitle": "Summer Breeze",
+        "title": "Top 10 Gadgets You Need",
+        "subtitle": "Must-have tech essentials.",
         "date": "18th January 2023",
         "imageUrl": "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "id": 3,
-        "title": "Navigating the World of Women's Tailoring",
-        "subtitle": "Power Dressing",
+        "title": "Choosing the Best Laptop",
+        "subtitle": "Find your perfect match.",
         "date": "5th January 2025",
         "imageUrl": "https://images.pexels.com/photos/414548/pexels-photo-414548.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "id": 4,
-        "title": "The World's Best Fashion Fair 2025",
-        "subtitle": "New York Times",
+        "title": "The Smartphone Evolution",
+        "subtitle": "What’s next for phones?",
         "date": "25th May 2025",
         "imageUrl": "https://images.pexels.com/photos/7123130/pexels-photo-7123130.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
