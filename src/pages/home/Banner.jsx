@@ -4,7 +4,7 @@ import bannerImg from '../../assets/header.png'
 
 const Banner = () => {
     return (
-        <main>
+        <main className='mt-16'>
             <div className='section__container header__container'>
                 <div className='header__content z-30'>
                     <h4 className='uppercase'>Up to 20% Discount<sup>*</sup></h4>
