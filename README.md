@@ -59,10 +59,30 @@ I designed this project to:
 ![User Dashboard](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169568/git%20uploads/wzvqgwnosbhla8bwn4cs.png)
 
 ### 3. Admin Dashboard
-- Product Management
+- Add New Product
 ![Add New Product](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169568/git%20uploads/emakgpmw6wvuyjjshbog.png)
 
+- Manage Products
 ![Manage Products](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169568/git%20uploads/lxqnonm5ophvhnrqxziv.png)
+
+
+## 🤝 Contributing
+
+Contributions are always welcome!  
+If you'd like to contribute, please fork the repository and create a pull request.  
+
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature-branch-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch-name`.
+5. Open a pull request.
+
+## 📧 Contact
+
+For questions, feedback, or collaboration opportunities:  
+- **Email**: shubhamgaikwad2k4.com  
+- **LinkedIn**: [Profile](https://www.linkedin.com/in/shubham2k24)  
+- **Portfolio**: [shubham-gaikwad](https://shubham-gaikwad.vercel.app)
 
 ### 4. Shop Page
 ![Shop Page](https://res.cloudinary.com/dvq3ty46y/image/upload/v1732169569/git%20uploads/lqwvpzelgco1wsswmw2n.png)
