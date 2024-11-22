@@ -7,7 +7,7 @@ const ShopFiltering = ({ filters, filtersState, setFiltersState, clearFilters })
         <div>
             {/* Filters Button for Mobile */}
             <button
-                className="md:hidden fixed top-16 right-4 text-gray-900 bg-slate-400 py-1 px-4 rounded shadow-lg z-50"
+                className="md:hidden fixed top-16 right-4 text-gray-900 bg-slate-400 py-1 px-4 rounded shadow-lg z-10"
                 onClick={() => setShowFilters(!showFilters)}
             >
                 {showFilters ? <span className='ri-close-circle-line'></span> : <span className='ri-filter-2-line'></span>}
