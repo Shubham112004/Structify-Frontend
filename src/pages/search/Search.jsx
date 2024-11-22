@@ -31,7 +31,7 @@ const Search = () => {
                 </section>
             </main> */}
 
-            <section className='section__container'>
+            <section className='section__container' style={{ marginTop: "4.6rem" }}>
                 <div className='w-full mb-12 flex flex-col md:flex-row items-center justify-center gap-4'>
                     <input
                         type="text"
