@@ -4,8 +4,10 @@ import axios from 'axios';
 import { getBaseUrl } from '../../utils/baseURL';
 import paymentLoader from '../../assets/payment_loader.gif';
 import { useGetUserQuery } from '../../redux/features/auth/authApi';
+import Swal from 'sweetalert2';
 
 const OrderSummary = () => {
+    const { user } = useSelector((state) => state.auth); // Get the logged-in user from Redux store
     const { products, tax, taxRate, totalPrice, grandTotal, selectedItems } = useSelector((store) => store.cart);
     const [loading, setLoading] = useState(false);
 
@@ -13,6 +15,19 @@ const OrderSummary = () => {
     const { data: userData, isLoading: userLoading, error: userError } = useGetUserQuery();
 
     const handleCheckout = async () => {
+
+        if (!user || !user._id) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Please login for checkout!',
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+            });
+            return;
+        }
 
         setLoading(true);
 
@@ -42,9 +57,9 @@ const OrderSummary = () => {
             <div className="px-6 py-4 space-y-5">
                 <h2 className="text-xl text-text-dark">Order Summary</h2>
                 <p className="text-text-dark mt-2">Selected Items: {selectedItems}</p>
-                <p>Total Price: ${totalPrice.toFixed(2)}</p>
-                <p>Tax: ({(taxRate * 100).toFixed(2)}%): ${tax.toFixed(2)}</p>
-                <h3 className="font-bold">Grand Total: ${grandTotal.toFixed(2)}</h3>
+                <h3 className="font-bold">Total Price: ${totalPrice.toFixed(2)}</h3>
+                {/* <p>Tax: ({(taxRate * 100).toFixed(2)}%): ${tax.toFixed(2)}</p>
+                <h3 className="font-bold">Grand Total: ${grandTotal.toFixed(2)}</h3> */}
 
                 {loading ? (
                     <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
