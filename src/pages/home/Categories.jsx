@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Categories = () => {
     const { data: { products = [], totalPages, totalProducts } = {}, error, isLoading } = useFetchAllProductsQuery({
-        // limit: productsPerPage,
+        limit: 0,
     })
     // console.log(products);
 
