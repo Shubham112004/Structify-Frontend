@@ -18,7 +18,7 @@ const OrderSummary = () => {
 
         if (!user || !user._id) {
             Swal.fire({
-                icon: 'error',
+                icon: 'info',
                 title: 'Please login for checkout!',
                 toast: true,
                 position: 'top-end',

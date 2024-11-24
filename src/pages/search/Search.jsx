@@ -21,11 +21,11 @@ const Search = () => {
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="search-bar w-full max-w-4xl p-2 border rounded"
                 />
-                <button
+                {/* <button
                     onClick={() => refetch()}
                     className="search-button w-full md:w-auto py-2 px-8 bg-primary text-white rounded">
                     Refresh Products
-                </button>
+                </button> */}
             </div>
 
             {isLoading && <p>Loading products...</p>}

@@ -6,7 +6,6 @@ const Categories = () => {
     const { data: { products = [], totalPages, totalProducts } = {}, error, isLoading } = useFetchAllProductsQuery({
         limit: 0,
     })
-    // console.log(products);
 
     const uniqueCategories = products.reduce((acc, product) => {
         if (!acc.some(item => item.category === product.category)) {

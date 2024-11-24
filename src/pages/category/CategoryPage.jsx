@@ -8,7 +8,7 @@ const CategoryPage = () => {
     const { categoryName } = useParams()
     // console.log(categoryName);
     const { data: { products = [], totalPages, totalProducts } = {}, error, isLoading } = useFetchAllProductsQuery({
-        // limit: productsPerPage,
+        limit: 0,
     })
     const [filteredProducts, setFilteredProducts] = useState([])
     useEffect(() => {
@@ -19,9 +19,9 @@ const CategoryPage = () => {
 
     return (
         <>
-            <section className='section__container bg-primary-light'>
+            <section className='section__container bg-primary-light' style={{ marginTop: "60px" }}>
                 <h2 className='section__header capitalize'>{categoryName}</h2>
-                <p className='section__subheader'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid esse quisquam consequuntur recusandae iste.</p>
+                <p className='section__subheader'>"Discover Your Favorites: Explore our curated categories and find the perfect products tailored to your needs!"</p>
             </section>
             {/* products card */}
             <div className='section__container'>
